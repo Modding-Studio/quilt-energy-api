@@ -1,0 +1,40 @@
+{
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "fr.moddingstudio",
+		"id": "qenergyapi",
+		"version": "${version}",
+		"metadata": {
+			"name": "Quilt Energy API",
+			"description": "",
+			"contributors": {
+				"Dakuro": "Creator",
+				"Mireole": "Contributor"
+			},
+			"contact": {
+				"homepage": "",
+				"issues": "https://github.com/Modding-Studio/quilt-energy-api/issues",
+				"sources": "https://github.com/Modding-Studio/quilt-energy-api/quilt-template-mod"
+			}
+		},
+		"intermediate_mappings": "net.fabricmc:intermediary",
+		"entrypoints": {
+			"init": "fr.moddingstudio.qenergyapi.QuiltEnergyAPI"
+		},
+		"depends": [
+			{
+				"id": "quilt_loader",
+				"versions": ">=0.17.0-"
+			},
+			{
+				"id": "quilted_fabric_api",
+				"versions": ">=2.0.0-"
+			},
+			{
+				"id": "minecraft",
+				"versions": ">=1.19"
+			}
+		]
+	},
+	"mixin": "qenergyapi.mixins.json"
+}
