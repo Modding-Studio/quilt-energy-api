@@ -6,7 +6,7 @@
 		"version": "${version}",
 		"metadata": {
 			"name": "Quilt Energy API",
-			"description": "",
+			"description": "An intuitive Energy API for Quilt, unofficial but efficient!",
 			"contributors": {
 				"Dakuro": "Creator",
 				"Mireole": "Contributor"
